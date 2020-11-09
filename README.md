@@ -69,14 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-<<<<<<< HEAD
-
-
-
-=======
-DITES TOUS COUCOU ICI :
-
 Salut, commit de Valentin
-
-Coucou c'est Catou 
->>>>>>> 1ca4577f7d44c1ce933378148fc1087def44791e
