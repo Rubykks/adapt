@@ -73,16 +73,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 DITES TOUS COUCOU ICI :
 
 Salut, commit de Valentin
-<<<<<<< HEAD
-
-
->>>>>>> 1ca4577f7d44c1ce933378148fc1087def44791e
-
-Coucou c'est catou 
-=======
 Salut a tous c'est Maxime !eeee
 =======
 Salut, commit de Valentin
 >>>>>>> c86c1e927572dd763309aec617ad1a53e178a5ef
->>>>>>> a753a11a49867f60b0c9c5526a41c8f5968aeedd
-Coucou c'est Catou 
+
+Merci valentin pour ton aide 
