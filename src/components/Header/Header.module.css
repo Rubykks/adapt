@@ -1,0 +1,29 @@
+.header {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    color: gray;
+    padding: 1em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menuItem {
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    
+  }
