@@ -1,6 +1,13 @@
+.authContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+}
+
 .logoContainer {
-  height: 80vh;
-  width: 100vw;
+  margin-top: 20vh;
   display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -10,4 +17,23 @@
   -webkit-align-items: center;
   align-items: center;
   justify-content: center;
+}
+
+.InscriptionButton {
+  display: flex;
+  justify-content: center;
+}
+
+.TextAuth {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.ConnexionButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
 }

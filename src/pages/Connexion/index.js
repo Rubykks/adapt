@@ -1,9 +1,10 @@
 import React from 'react'
-function Connexion() {
-    return (
-      <p>Connexion</p>
+import styles from "./Connexion.module.css";
+const Connexion = () => {
+  return (
+    <h2 className={styles.TitreConnexion}>Salut, on se connait ?</h2>
+    
+  );
+};
 
-    );
-  }
-  
-  export default Connexion;
+export default Connexion;
