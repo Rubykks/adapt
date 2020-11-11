@@ -1,5 +1,6 @@
 import React from 'react'
-function AmbiancePage() {
+const AmbiancePage = () => {
+
     return (
      <p>Ambiance Page</p>
     );

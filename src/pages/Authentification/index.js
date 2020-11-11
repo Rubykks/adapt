@@ -1,5 +1,5 @@
 import React from 'react'
-function Authentification() {
+const Authentification = () => {
     return (
       <p>Authentification</p>
 
