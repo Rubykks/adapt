@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./Header.module.css";
+import styles from "./Navbar.module.css";
 
-const Header = () => {
+const Navbar = () => {
   return (
-    <div className={styles.header}>
+    <div className={styles.navbar}>
       <ul className={styles.menu}>
         <li>
           <Link to="/mon-agenda" className={styles.menuItem}>
@@ -26,4 +26,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
