@@ -1,0 +1,22 @@
+.blobWrapper {
+  height: 76vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playPauseWrapper {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+}
+
+.triggerPause {
+  background-color: #2b2b2bb6;
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  border: none;
+}
