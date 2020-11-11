@@ -12,8 +12,8 @@ import FacebookIcon from "./img/facebookIcon.svg";
 
 const Inscription = () => {
   return (
-    <div className={styles.containerConnexion}>
-    <h2 className={styles.TitreConnexion}>Enchanté, qui es-tu ?</h2>
+    <div className={styles.containerInscription}>
+    <h2 className={styles.TitreInscription}>Enchanté, qui es-tu ?</h2>
     
     <div className={styles.inputMail}>
 
@@ -108,7 +108,18 @@ const Inscription = () => {
         
         </div>
       </div>
-      
+
+      <div className={styles.alreadySubscribe}></div>
+      <p className={styles.dejaInscrit}>Déjà inscrit ?</p>
+
+    <div className={styles.connecteToi}>
+      <ButtonNext 
+      name ="Connecte-toi !" 
+      color ="#F8F8F8" 
+      backgroundColor="rgba(0, 0, 0, 0.85)" 
+      fontWeight= '700'/>
+      </div>
+
       </div>
   );
 };
