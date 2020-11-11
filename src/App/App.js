@@ -1,6 +1,5 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './App.css';
-import Header from "../components/Header/Header";
 import AmbiancePage from "../pages/AmbiancePage";
 import Authentification from "../pages/Authentification";
 import Calendar from "../pages/Calendar";
@@ -16,6 +15,7 @@ import MyAccount from "../pages/MyAccount";
 import MyLike from "../pages/MyLike";
 import MyProfile from "../pages/MyProfile";
 import Questionnaire from "../pages/Questionnaire";
+import Header from "../components/header/Header";
 
 function App() {
   return (
