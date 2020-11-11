@@ -1,9 +1,12 @@
-import React from 'react'
-function MyLike() {
-    return (
-      <p>MyLike</p>
+import React from "react";
+import HomeLayout from "../../layout";
 
-    );
-  }
-  
-  export default MyLike;
+const MyLike = () => {
+  return (
+    <div>
+      <HomeLayout />
+      <p>Mes likes</p>
+    </div>
+  );
+};
+export default MyLike;

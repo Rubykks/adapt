@@ -1,5 +1,5 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import './App.css';
+import "./App.css";
 import AmbiancePage from "../pages/AmbiancePage";
 import Authentification from "../pages/Authentification";
 import Calendar from "../pages/Calendar";
@@ -15,61 +15,31 @@ import MyAccount from "../pages/MyAccount";
 import MyLike from "../pages/MyLike";
 import MyProfile from "../pages/MyProfile";
 import Questionnaire from "../pages/Questionnaire";
-import Header from "../components/header/Header";
 
-function App() {
+const App = () => {
   return (
-    <BrowserRouter>
-      <Header/>
-      <Switch>
-        <Route path="../pages/AmbiancePage">
-          <AmbiancePage/>
-        </Route>
-        <Route path="../pages/Authentification">
-         <Authentification/>
-        </Route>
-        <Route path="../pages/Calendar">
-          <Calendar/>
-        </Route>
-        <Route path="../pages/CalendarDay">
-          <CalendarDay/>
-        </Route>
-        <Route path="../pages/CalendarWeek">
-          <CalendarWeek/>
-        </Route>
-        <Route path="../pages/Connexion">
-          <Connexion/>
-        </Route>
-        <Route path="../pages/CurrentPlay">
-          <CurrentPlay/>
-        </Route>
-        <Route path="../pages/Home/Home">
-          <Home/>
-        </Route>
-        <Route path="../pages/Inscription">
-          <Inscription/>
-        </Route>
-        <Route path="../pages/MenuPlayer">
-          <MenuPlayer/>
-        </Route>
-        <Route path="../pages/ModifyProfile">
-          <ModifyProfile/>
-        </Route>
-        <Route path="../pages/MyAccount">
-          <MyAccount/>
-        </Route>
-        <Route path="../pages/MyLike">
-          <MyLike/>
-        </Route>
-        <Route path="../pages/MyProfile">
-          <MyProfile/>
-        </Route>
-        <Route path="../pages/Questionnaire">
-          <Questionnaire/>
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
+        <Switch>
+          <Route path="/ambiance" component={AmbiancePage} />
+          <Route path="/authentification" component={Authentification} />
+          <Route path="/mon-agenda" component={Calendar} />
+          <Route path="/calendrier-jour" component={CalendarDay} />
+          <Route path="/calendrier-semaine" component={CalendarWeek} />
+          <Route path="/connexion" component={Connexion} />
+          <Route path="/musique-en-cours" component={CurrentPlay} />
+          <Route path="/" exact component={Home} />
+          <Route path="/inscription" component={Inscription} />
+          <Route path="/plus" component={MenuPlayer} />
+          <Route path="/modifier-mon-profil" component={ModifyProfile} />
+          <Route path="/mon-compte" component={MyAccount} />
+          <Route path="/mes-likes" component={MyLike} />
+          <Route path="/mon-profil" component={MyProfile} />
+          <Route path="/quizz" component={Questionnaire} />
+        </Switch>
+      </BrowserRouter>
+    </div>
   );
-}
+};
 
 export default App;
