@@ -8,16 +8,32 @@ class InputString extends React.Component {
   
     render() {
       return (
-        <div>coucou</div>
+        <div>
+        
+
+            <input className={styles.Input} 
+            style={{
+                backgroundColor: this.props.backgroundColor,
+                color: this.props.color,
+                fontWeight: this.props.fontWeight}}
+            
+            type={this.props.inputType} 
+            placeholder={this.props.placeHolderInput}>
+
+            </input>
+        </div>
       );
     }
   }
  
 
   InputString.propTypes = {
+    inputType: PropTypes.string,
+    placeHolderInput: PropTypes.string,
     name: PropTypes.string,
     backgroundColor: PropTypes.string,
     color: PropTypes.string
+
 
 
   }
