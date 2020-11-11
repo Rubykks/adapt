@@ -1,7 +1,15 @@
 import React from 'react'
+
 import ButtonNext from '../../components/ButtonNext';
+
 import InputString from '../../components/InputString';
 import styles from "./Connexion.module.css";
+import GoogleIcon from "./img/googleIcon.svg";
+import AppleIcon from "./img/appleIcon.svg";
+import FacebookIcon from "./img/facebookIcon.svg";
+
+
+
 const Connexion = () => {
   return (
     <div className={styles.containerConnexion}>
@@ -32,7 +40,8 @@ const Connexion = () => {
       />
       
     </div>
-    <div className={styles.boutouSuivant}><ButtonNext 
+    <div className={styles.boutouSuivant}>
+      <ButtonNext 
       name ="Suivant" 
       color ="#F8F8F8" 
       backgroundColor="rgba(0, 0, 0, 0.85)" 
@@ -40,8 +49,46 @@ const Connexion = () => {
       </div>
 
       <p className={styles.orText}>ou</p>
+
+      <div className={styles.containerIcon}>
+
+
+      <div className={styles.iconItem1}>
+            <img
+              src={FacebookIcon}
+              alt="GoogleIcon"
+            />
+        
       
-    </div>
+        </div>
+
+        <div className={styles.iconItem2}>
+            <img
+             
+              src={AppleIcon}
+              alt="AppleIcon"
+            />
+        
+        
+        </div>
+
+
+      <div className={styles.iconItem3}>
+            <img
+             
+              src={GoogleIcon}
+              alt="GoogleIcon"
+            />
+        
+        
+        </div>
+
+       
+
+     
+      </div>
+      
+      </div>
   );
 };
 

@@ -13,18 +13,17 @@
     flex-direction: column;
   }
 
-  .inputMail
+  .inputMail, .inputMotDePasse, .inputUsername, .inputConfirmedMdp 
   {
-    margin-top: 10vh;
+    margin-top: 5vh;
   }
 
-  .inputMotDePasse {
-    margin-top: 4vh;
-
-  }
+ 
 
   .boutouSuivant {
     margin-top: 4vh;
+    outline: none;
+
 
   }
 
@@ -52,4 +51,10 @@
     padding-left: 5vw;
     padding-right: 5vw;
 
+  }
+
+  .textMdp {
+      font-size: 12px;
+      font-family: Montserrat;
+      font-weight: 500;
   }

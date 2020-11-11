@@ -16,9 +16,10 @@ class InputString extends React.Component {
                 backgroundColor: this.props.backgroundColor,
                 color: this.props.color,
                 fontWeight: this.props.fontWeight}}
-            
-            type={this.props.inputType} 
-            placeholder={this.props.placeHolderInput}>
+                type={this.props.inputType} 
+                placeholder={this.props.placeHolderInput}
+                size={this.props.size}
+               >
 
             </input>
         </div>
@@ -32,7 +33,8 @@ class InputString extends React.Component {
     placeHolderInput: PropTypes.string,
     name: PropTypes.string,
     backgroundColor: PropTypes.string,
-    color: PropTypes.string
+    color: PropTypes.string,
+    size: PropTypes.string
 
 
 
