@@ -1,8 +1,10 @@
 import React from 'react'
+import Logo from '../../components/Logo';
 const Authentification = () => {
     return (
-      <p>Authentification</p>
-
+     
+      <Logo/>
+    
     );
   }
   
