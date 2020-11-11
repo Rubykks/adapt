@@ -1,5 +1,6 @@
 import React from "react";
-import HomeLayout from "../../../layout";
+import PlayButton from "../../components/PlayButton";
+import HomeLayout from "../../layout";
 import styles from "./Home.module.css";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div className={styles.container}>
       <HomeLayout />
       Page d'accueil
+      <PlayButton />
     </div>
   );
 };

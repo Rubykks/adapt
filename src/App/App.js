@@ -7,7 +7,7 @@ import CalendarDay from "../pages/CalendarDay";
 import CalendarWeek from "../pages/CalendarWeek";
 import Connexion from "../pages/Connexion";
 import CurrentPlay from "../pages/CurrentPlay";
-import Home from "../pages/Home/Home";
+import Home from "../pages/Home";
 import Inscription from "../pages/Inscription";
 import MenuPlayer from "../pages/MenuPlayer";
 import ModifyProfile from "../pages/ModifyProfile";
