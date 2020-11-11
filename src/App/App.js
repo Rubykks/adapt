@@ -38,6 +38,7 @@ const App = () => {
           <Route path="/quizz" component={Questionnaire} />
         </Switch>
       </BrowserRouter>
+
     </div>
   );
 };
