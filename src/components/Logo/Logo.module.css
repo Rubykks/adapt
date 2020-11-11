@@ -1,20 +1,4 @@
 .Logo {
-    width: 60px;
-    height: 60px;
-    
-}
-
-.logo_container {
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
-    width: 100%;
-   
-   
-}
-.auth_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+  width: 30vw;
+  height: 30vh;
 }
