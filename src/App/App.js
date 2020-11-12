@@ -40,6 +40,7 @@ const App = () => {
           <Route path="/Hooks" component={HooksPage} />
         </Switch>
       </BrowserRouter>
+
     </div>
   );
 };
