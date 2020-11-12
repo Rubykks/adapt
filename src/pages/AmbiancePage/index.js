@@ -94,8 +94,8 @@ const AmbiancePage = () => {
         name= "Jour de pluie"
         color= "#F8F8F8"
         fontWeight= "700"
-        backgroundColor = "rgb(238,238,238)"
-        background = "linear-gradient(90deg, rgba(218,188,188,1) 0%, rgba(165,152,182,1) 31%, rgba(101,108,174,1) 65%, rgba(58,79,169,1) 100%)"
+        backgroundColor = "background: rgb(57,181,182)"
+        background = "linear-gradient(96deg, rgba(57,181,182,1) 0%, rgba(190,185,198,0.7848442492012779) 100%)"
       
       />
 
