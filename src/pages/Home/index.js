@@ -7,7 +7,6 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <HomeLayout />
-      Page d'accueil
       <PlayButton />
     </div>
   );

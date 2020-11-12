@@ -15,6 +15,7 @@ import MyAccount from "../pages/MyAccount";
 import MyLike from "../pages/MyLike";
 import MyProfile from "../pages/MyProfile";
 import Questionnaire from "../pages/Questionnaire";
+import HooksPage from "../pages/HooksPage";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/mes-likes" component={MyLike} />
           <Route path="/mon-profil" component={MyProfile} />
           <Route path="/quizz" component={Questionnaire} />
+          <Route path="/Hooks" component={HooksPage} />
         </Switch>
       </BrowserRouter>
     </div>
