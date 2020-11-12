@@ -4,7 +4,6 @@ import AmbiancePage from "../pages/AmbiancePage";
 import Authentification from "../pages/Authentification";
 import Calendar from "../pages/Calendar";
 import CalendarDay from "../pages/CalendarDay";
-import CalendarWeek from "../pages/CalendarWeek";
 import Connexion from "../pages/Connexion";
 import CurrentPlay from "../pages/CurrentPlay";
 import Home from "../pages/Home";
@@ -25,8 +24,7 @@ const App = () => {
           <Route path="/ambiance" component={AmbiancePage} />
           <Route path="/authentification" component={Authentification} />
           <Route path="/mon-agenda" component={Calendar} />
-          <Route path="/calendrier-jour" component={CalendarDay} />
-          <Route path="/calendrier-semaine" component={CalendarWeek} />
+          <Route path="/calendrier-day" component={CalendarDay} />
           <Route path="/connexion" component={Connexion} />
           <Route path="/musique-en-cours" component={CurrentPlay} />
           <Route path="/" exact component={Home} />

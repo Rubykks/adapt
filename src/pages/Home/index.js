@@ -1,5 +1,5 @@
 import React from "react";
-import CurrentTime from "../../components/Informations";
+import CurrentTime from "../../components/CurrentTime";
 import PlayButton from "../../components/PlayButton";
 import Layout from "../../layout";
 import styles from "./Home.module.css";

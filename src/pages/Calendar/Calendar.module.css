@@ -1,5 +1,9 @@
 .CalendarContainer {
     display: flex;
     justify-content: center;
-    
+
+}
+
+.titrePlanning {
+    font-size: 20px;
 }
