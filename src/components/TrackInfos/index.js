@@ -3,7 +3,7 @@ import React from "react";
 const TrackInfos = () => {
   return (
     <div>
-      <p>TrackInfos</p>
+      <p>trackTitle</p>
     </div>
   );
 };

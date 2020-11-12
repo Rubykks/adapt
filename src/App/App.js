@@ -20,7 +20,6 @@ import HooksPage from "../pages/HooksPage";
 const App = () => {
   return (
     <div className="App">
-      
       <BrowserRouter>
         <Switch>
           <Route path="/ambiance" component={AmbiancePage} />
