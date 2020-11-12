@@ -6,22 +6,22 @@ import PropTypes from 'prop-types';
 
 class ButtonNext extends React.Component {
   
-    render() {
-      return (
-        <button className={styles.buttonNext} 
-        style={{
-          backgroundColor: this.props.backgroundColor,
-          color: this.props.color,
-          fontWeight: this.props.fontWeight}}
-        >
+  render() {
+    return (
+      <button className={styles.buttonNext} 
+      style={{
+        backgroundColor: this.props.backgroundColor,
+        color: this.props.color,
+        fontWeight: this.props.fontWeight}}
+      >
 
-        {this.props.name} 
-        
-        </button>
-      );
-    }
+      {this.props.name} 
+      
+      </button>
+    );
   }
- 
+}
+
 
   ButtonNext.propTypes = {
     name: PropTypes.string,

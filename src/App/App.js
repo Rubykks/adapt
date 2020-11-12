@@ -19,6 +19,7 @@ import Questionnaire from "../pages/Questionnaire";
 const App = () => {
   return (
     <div className="App">
+      
       <BrowserRouter>
         <Switch>
           <Route path="/ambiance" component={AmbiancePage} />
@@ -38,7 +39,6 @@ const App = () => {
           <Route path="/quizz" component={Questionnaire} />
         </Switch>
       </BrowserRouter>
-
     </div>
   );
 };

@@ -1,8 +1,20 @@
 import React from 'react'
+import ReturnButton from '../../components/ReturnButton';
+import styles from './Ambiance.module.css'
+
+
+
 const AmbiancePage = () => {
 
     return (
-     <p>Ambiance Page</p>
+     <div className={styles.ambiancePageContainer}>
+       <ReturnButton/>
+     
+      <div className={styles.triggerPlaylist}>
+
+      </div >
+     </div>
+
     );
   }
   
