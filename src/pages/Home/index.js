@@ -1,8 +1,7 @@
 import React from "react";
-import BackgroundLayout from "../../components/BackgroundLayout";
 import CurrentTime from "../../components/Informations";
 import PlayButton from "../../components/PlayButton";
-import HomeLayout from "../../layout";
+import Layout from "../../layout";
 import styles from "./Home.module.css";
 // import Player from "../../components/Player";
 // import TrackCover from "../../components/TrackCover";
@@ -10,16 +9,15 @@ import styles from "./Home.module.css";
 
 const Home = () => {
   return (
-    <BackgroundLayout>
+    <Layout>
       <div className={styles.container}>
-        <HomeLayout />
         <PlayButton />
         <CurrentTime />
         {/* <Player /> */}
         {/* <TrackInfos /> */}
         {/* <TrackCover /> */}
       </div>
-    </BackgroundLayout>
+    </Layout>
   );
 };
 

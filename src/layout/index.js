@@ -1,12 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 
-const HomeLayout = () => {
+const Layout = (props) => {
   return (
     <div>
+      {props.children}
       <Navbar />
     </div>
   );
 };
 
-export default HomeLayout;
+export default Layout;
