@@ -11,8 +11,10 @@ const Home = () => {
   return (
     <Layout>
       <div className={styles.container}>
+        <h1>
+          Nous sommes le <CurrentTime /> !
+        </h1>
         <PlayButton />
-        <CurrentTime />
         {/* <Player /> */}
         {/* <TrackInfos /> */}
         {/* <TrackCover /> */}
