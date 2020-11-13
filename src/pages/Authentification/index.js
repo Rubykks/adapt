@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import AnimationLogo from "../../components/AnimationIntro";
 import ButtonNext from "../../components/ButtonNext";
 import styles from "./Authentification.module.css";
@@ -10,7 +12,12 @@ const Authentification = () => {
         <AnimationLogo/>
       </div>
       <h2 className={styles.TextAuth}>Organise ta musique avec Adapt</h2>
-      <div className={styles.ConnexionButton}>
+     
+     
+      <Link to="/inscription" className={styles.menuItem}>
+            
+        
+      <div className={styles.InscriptionButton}>
         <ButtonNext
           name="S'inscrire gratuitement"
           color="#F8F8F8"
@@ -18,6 +25,11 @@ const Authentification = () => {
           fontWeight="700"
         />
       </div>
+
+      </Link>
+
+      <Link to="/connexion" className={styles.menuItem}>
+            
       <div className={styles.ConnexionButton}>
         <ButtonNext
           name="Se connecter"
@@ -27,6 +39,7 @@ const Authentification = () => {
           ontWeight="500"
         />
       </div>
+      </Link>
     </div>
   );
 };
