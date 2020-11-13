@@ -5,14 +5,11 @@ import ButtonNext from "../../components/ButtonNext";
 import PlayButton from "../../components/PlayButton";
 import Layout from "../../layout";
 import styles from "./Home.module.css";
-// import Player from "../../components/Player";
-// import TrackCover from "../../components/TrackCover";
-// import TrackInfos from "../../components/TrackInfos";
 
 const Home = () => {
   return (
     <Layout>
-      <div className={styles.homeDateContainer}>
+      <div>
         <h1 className={styles.homeDate}>
           <CurrentDate />
         </h1>
@@ -33,9 +30,6 @@ const Home = () => {
           />
         </div>
       </div>
-      {/* <Player /> */}
-      {/* <TrackInfos /> */}
-      {/* <TrackCover /> */}
     </Layout>
   );
 };

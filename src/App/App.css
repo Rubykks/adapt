@@ -2,12 +2,8 @@
 :root {
   --primary-color: #007bff;
   --secondary-color: #f68d28;
-  background-image: url(./assets/img-noise-1080x1920.png);
-  overflow: hidden;
   background-color: #ffe9d2;
   font-family: "Montserrat";
-}
-
-.App {
   min-height: 100vh;
+  overflow: hidden;
 }

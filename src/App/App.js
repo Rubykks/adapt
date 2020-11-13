@@ -38,8 +38,6 @@ const App = () => {
           <Route path="/Hooks" component={HooksPage} />
         </Switch>
       </BrowserRouter>
-
-      {/* <img className={styles.blob1} src={} alt="agenda icon" /> */}
     </div>
   );
 };
