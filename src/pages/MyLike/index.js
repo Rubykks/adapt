@@ -1,14 +1,11 @@
 import React from "react";
-import AnimationLogo from "../../components/AnimationIntro";
-import HomeLayout from "../../layout";
+import Layout from "../../layout";
 
 const MyLike = () => {
   return (
-    <div>
-      <HomeLayout />
-      <p>Mes likes</p>
-      <AnimationLogo/>
-    </div>
+    <Layout>
+      <h1>Mes likes</h1>
+    </Layout>
   );
 };
 export default MyLike;

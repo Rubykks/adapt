@@ -1,25 +1,21 @@
 .AccountHeaderContainer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 4vh;
-
-
+  display: flex;
+  flex-direction: row;
+  margin-top: 4vh;
 }
 
 .textContainer {
-    display: inline;
-    display: flex;
-    flex-direction: column;
-
-
-
+  display: inline;
+  display: flex;
+  flex-direction: column;
 }
 
+.linkModify {
+  text-decoration: none;
 
-h1 {
-    font-size: 18px;
-    padding-left: 12vw;
-    display: inline;
+  font-size: 12px;
+  color: #2b2b2b;
+  margin-top: -20px;
 }
 
 .linkModify{
@@ -37,4 +33,3 @@ h1 {
     color: #2B2B2B;
     text-decoration: underline;
 }
-
