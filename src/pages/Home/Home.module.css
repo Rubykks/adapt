@@ -29,3 +29,8 @@
 .homeTime {
   margin: 0;
 }
+
+.infosTop {
+  display: flex;
+  align-items: center;
+}

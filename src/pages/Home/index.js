@@ -6,17 +6,23 @@ import PlayButton from "../../components/PlayButton";
 import Layout from "../../layout";
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
+import IconAvatar from "../../components/AvatarIcon";
 
 const Home = () => {
   return (
     <Layout>
-      <div className={styles.homeDateContainer}>
-        <h1 className={styles.homeDate}>
-          <CurrentDate />
-        </h1>
-        <h2 className={styles.homeTime}>
-          Il est <CurrentTime />
-        </h2>
+      <div className={styles.infosTop}>
+        <div className={styles.homeDateContainer}>
+          <h1 className={styles.homeDate}>
+            <CurrentDate />
+          </h1>
+          <h2 className={styles.homeTime}>
+            Il est <CurrentTime />
+          </h2>
+        </div>
+        <Link to="/mon-compte">
+          <IconAvatar />
+        </Link>
       </div>
       <div className={styles.container}>
         <div className={styles.playbutton}>
