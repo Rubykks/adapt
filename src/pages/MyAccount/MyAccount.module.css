@@ -21,8 +21,6 @@ label {
     display: inline;
     text-align: start;
     font-size: 12px;
-    margin-bottom: 10vh;
-
 }
 
 .textContainer {
@@ -30,12 +28,4 @@ label {
     flex-direction: column;
     padding-left: 10vw;
     justify-content: space-between;
-    padding-top: 3vh;
-
-}
-
-.Text {
-display: inline;
-margin-bottom: 10vh;
-
 }

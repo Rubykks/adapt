@@ -16,13 +16,13 @@ const Navbar = () => {
               src={calendarIcon}
               alt="agenda icon"
             />
-            <p>Mon agenda</p>
+            <p className={styles.Subtitles}>Mon agenda</p>
           </Link>
         </li>
         <li>
           <Link to="/" className={styles.menuItem}>
             <img className={styles.homeIcon} src={homeIcon} alt="home icon" />
-            <p>Accueil</p>
+            <p className={styles.Subtitles}>Accueil</p>
           </Link>
         </li>
         <li>
@@ -32,7 +32,7 @@ const Navbar = () => {
               src={heartIcon}
               alt="heart icon"
             />
-            <p>Mes likes</p>
+            <p className={styles.Subtitles}>Mes likes</p>
           </Link>
         </li>
       </ul>
