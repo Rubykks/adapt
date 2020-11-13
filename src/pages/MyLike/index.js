@@ -1,12 +1,11 @@
 import React from "react";
-import HomeLayout from "../../layout";
+import Layout from "../../layout";
 
 const MyLike = () => {
   return (
-    <div>
-      <HomeLayout />
-      <p>Mes likes</p>
-    </div>
+    <Layout>
+      <h1>Mes likes</h1>
+    </Layout>
   );
 };
 export default MyLike;

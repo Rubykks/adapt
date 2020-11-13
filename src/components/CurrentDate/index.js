@@ -4,7 +4,8 @@ import "moment-timezone";
 import "moment/locale/fr";
 
 const CurrentTime = () => {
-  return <Moment interval={1000} format="HH:mm" />;
+  const date = new Date();
+  return <Moment format="dddd DD MMMM y" date={date} />;
 };
 
 export default CurrentTime;
