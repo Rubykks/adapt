@@ -20,7 +20,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/" className={styles.menuItem}>
+          <Link to="/home" className={styles.menuItem}>
             <img className={styles.homeIcon} src={homeIcon} alt="home icon" />
             <p className={styles.Subtitles}>Accueil</p>
           </Link>

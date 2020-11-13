@@ -5,7 +5,7 @@ import styles from "./Layout.module.css";
 const Layout = (props) => {
   return (
     <div>
-      <div className={styles.blurBackground}>
+      <div>
         <div>{props.children}</div>
       </div>
       <Navbar />

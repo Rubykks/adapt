@@ -5,11 +5,12 @@ import ButtonNext from "../../components/ButtonNext";
 import PlayButton from "../../components/PlayButton";
 import Layout from "../../layout";
 import styles from "./Home.module.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <Layout>
-      <div>
+      <div className={styles.homeDateContainer}>
         <h1 className={styles.homeDate}>
           <CurrentDate />
         </h1>
@@ -22,12 +23,14 @@ const Home = () => {
           <PlayButton />
         </div>
         <div className={styles.nextbutton}>
-          <ButtonNext
-            name="Toutes nos ambiances"
-            color="#F8F8F8"
-            backgroundColor="rgba(0, 0, 0, 0.85)"
-            fontWeight="700"
-          />
+          <Link to="/ambiance" className={styles.menuItem}>
+            <ButtonNext
+              name="Toutes nos ambiances"
+              color="#F8F8F8"
+              backgroundColor="rgba(0, 0, 0, 0.85)"
+              fontWeight="700"
+            />
+          </Link>
         </div>
       </div>
     </Layout>
