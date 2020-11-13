@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../components/Logo";
+import AnimationLogo from "../../components/AnimationIntro";
 import ButtonNext from "../../components/ButtonNext";
 import styles from "./Authentification.module.css";
 
@@ -7,7 +7,7 @@ const Authentification = () => {
   return (
     <div className={styles.authContainer}>
       <div className={styles.logoContainer}>
-        <Logo />
+        <AnimationLogo/>
       </div>
       <h2 className={styles.TextAuth}>Organise ta musique avec Adapt</h2>
       <div className={styles.ConnexionButton}>

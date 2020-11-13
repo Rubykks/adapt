@@ -1,4 +1,5 @@
 import React from "react";
+import AnimationLogo from "../../components/AnimationIntro";
 import HomeLayout from "../../layout";
 
 const MyLike = () => {
@@ -6,6 +7,7 @@ const MyLike = () => {
     <div>
       <HomeLayout />
       <p>Mes likes</p>
+      <AnimationLogo/>
     </div>
   );
 };
