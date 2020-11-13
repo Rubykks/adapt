@@ -3,7 +3,6 @@ import "./App.css";
 import AmbiancePage from "../pages/AmbiancePage";
 import Authentification from "../pages/Authentification";
 import Calendar from "../pages/Calendar";
-import CalendarDay from "../pages/CalendarDay";
 import Connexion from "../pages/Connexion";
 import CurrentPlay from "../pages/CurrentPlay";
 import Home from "../pages/Home";
@@ -22,12 +21,11 @@ const App = () => {
       <BrowserRouter>
         <Switch>
           <Route path="/ambiance" component={AmbiancePage} />
-          <Route path="/authentification" component={Authentification} />
+          <Route path="/Home" component={Home} />
           <Route path="/mon-agenda" component={Calendar} />
-          <Route path="/calendrier-day" component={CalendarDay} />
           <Route path="/connexion" component={Connexion} />
           <Route path="/musique-en-cours" component={CurrentPlay} />
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact component={Authentification} />
           <Route path="/inscription" component={Inscription} />
           <Route path="/plus" component={MenuPlayer} />
           <Route path="/modifier-mon-profil" component={ModifyProfile} />

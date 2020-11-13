@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
+import styles from './Text.module.css'
 
 
 
@@ -7,8 +8,8 @@ class Text extends React.Component {
   
   render() {
     return (
-<div className="textContainer">
-      <h3 className="text" 
+<div className={styles.textContainer}>
+      <h3 className={styles.textLink} 
       style={{
         colorLink: this.props.colorLink,
         fontWeightLink: this.props.fontWeightLink,
@@ -19,7 +20,7 @@ class Text extends React.Component {
       
       </h3>
       
-      <label className="text" 
+      <label className={styles.textSubtitle}
       style={{
         colorSubtitle: this.props.colorSubtitle,
         fontWeightSubtitle: this.props.fontWeightSubtitle,

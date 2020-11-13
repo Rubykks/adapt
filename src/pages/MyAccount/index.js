@@ -4,6 +4,7 @@ import styles from "./MyAccount.module.css";
 import ReturnButton from "../../components/ReturnButton";
 import AccountHeader from "../../components/MyAccountHeader";
 import Text from "../../components/Text"
+import Checkbox from "../../components/Checkbox";
 
 
 
@@ -75,6 +76,8 @@ const MyAccount = () => {
 
 
   </div>
+
+  <Checkbox/>
     
   </div>
    
