@@ -6,23 +6,36 @@
     
     
 }
-h2 {
+h3 {
     margin-bottom: 0;
+    font-size: 16px;
 }
+
 
 .myAccountContainer {
     display: flex;
     justify-content: center;
 }
 
-.label {
+label {
     display: inline;
     text-align: start;
+    font-size: 12px;
+    margin-bottom: 10vh;
+
 }
 
 .textContainer {
     display: flex;
     flex-direction: column;
     padding-left: 10vw;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 3vh;
+
+}
+
+.Text {
+display: inline;
+margin-bottom: 10vh;
+
 }
