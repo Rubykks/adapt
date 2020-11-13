@@ -6,8 +6,8 @@ import styles from "./Authentification.module.css";
 
 const Authentification = () => {
   return (
-    <div className={styles.logoContainer}>
-      <div className={styles.authContainer}>
+    <div className={styles.authContainer}>
+      <div className={styles.logoContainer}>
         <AnimationLogo />
       </div>
       <h2 className={styles.TextAuth}>Organise ta musique avec Adapt</h2>
