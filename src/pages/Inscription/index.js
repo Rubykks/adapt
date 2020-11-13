@@ -7,6 +7,7 @@ import styles from "./Inscription.module.css";
 import GoogleIcon from "./img/googleIcon.svg";
 import AppleIcon from "./img/appleIcon.svg";
 import FacebookIcon from "./img/facebookIcon.svg";
+import { Link } from "react-router-dom";
 
 const Inscription = () => {
   return (
@@ -56,12 +57,14 @@ const Inscription = () => {
       </div>
 
       <div className={styles.boutouSuivant}>
-        <ButtonNext
-          name="Suivant"
-          color="#F8F8F8"
-          backgroundColor="rgba(0, 0, 0, 0.85)"
-          fontWeight="700"
-        />
+        <Link to="/home">
+          <ButtonNext
+            name="Suivant"
+            color="#F8F8F8"
+            backgroundColor="rgba(0, 0, 0, 0.85)"
+            fontWeight="700"
+          />
+        </Link>
       </div>
 
       <p className={styles.orText}>ou</p>
